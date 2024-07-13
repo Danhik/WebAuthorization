@@ -4,11 +4,11 @@
 <br> Подробней о создании проекта здесь: [METANIT.COM](https://metanit.com/sharp/aspnet5/3.1.php)
 
 <br>Также нужно установить нужные для работы пакеты Nuget: 
-***<br> Microsoft.EntityFramework
+***<br> Microsoft.EntityFrameworkCore
 <br> Microsoft.EntityFrameworkCore.SqlServer
 <br> Microsoft.EntityFrameworkCore.Tools***
 ## Опредление моделей классов
-В папке Models  необходимо создать класс User: 
+В папке Models  создать класс User: 
 <br>
 ```csharp
 {
