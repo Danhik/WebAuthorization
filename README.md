@@ -3,7 +3,7 @@
 Необходимо создать проект ASP.NET Core Web App (Model-View-Controller).
 <br> Подробней о создании проекта здесь: [METANIT.COM](https://metanit.com/sharp/aspnet5/3.1.php)
 
-<br>Также необходимо установить нужные для работы пакеты Nuget: 
+<br>Также нужно установить нужные для работы пакеты Nuget: 
 ***<br> Microsoft.EntityFramework
 <br> Microsoft.EntityFrameworkCore.SqlServer
 <br> Microsoft.EntityFrameworkCore.Tools***
@@ -27,8 +27,7 @@
     }
 }
 ```
-Для того чтобы можно было взимодействовать с БД
- в папке Models необходимо создать контекст данных UsersContext  
+Для того чтобы можно было взимодействовать с БД в папке Models необходимо создать контекст данных UsersContext  
 
 ```csharp
 using Microsoft.EntityFrameworkCore;
@@ -380,9 +379,9 @@ HttpPost Register(RegisterModel model)
 ## Результат
 После запуска проекта мы будем отправлены на  данную страничку:
 <br> ![image](https://github.com/user-attachments/assets/6d469501-6c34-4fc6-815e-850d4ae8e4da)
-<br> Так как мы не зарегистрированы, перейдем на страницу регистрации и заполним поляb нажмем на кнопку регистрация:
+<br> Так как мы не зарегистрированы, перейдем на страницу регистрации и заполним поля нажмем на кнопку регистрация:
 <br> ![image](https://github.com/user-attachments/assets/15db734b-7188-4006-8001-66ed0e9fe60a)
-<br> При успещной регистрации мы попадем на данную страницу: 
+<br> При успешной регистрации мы попадем на данную страницу: 
 <br> ![image](https://github.com/user-attachments/assets/79aedf93-e192-4955-987f-020fc56753a3)
 <br> А наши данные будут занесены в Бд, также мы получим куки с сроком действия: 
 <br> ![image](https://github.com/user-attachments/assets/771da9cf-3431-4085-9027-859357b33ed1)
